@@ -138,7 +138,11 @@ function AddNewInterview() {
                   </div>
                 </div>
                 <div className="flex gap-5 justify-end">
-                  <Button type="button" variant="ghost">
+                  <Button
+                    onClick={() => setOpenDialog(false)}
+                    type="button"
+                    variant="ghost"
+                  >
                     Cancel
                   </Button>
                   <Button type="submit" disabled={loading}>
