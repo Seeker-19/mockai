@@ -29,7 +29,7 @@ function startInterview({ params }) {
     console.log(result[0].jsonMockResp);
     console.log(jsonMockResp);
 
-    setMockInterviewQuestion(jsonMockResp?.questions);
+    setMockInterviewQuestion(jsonMockResp);
     setInterviewData(result[0]);
   };
 
